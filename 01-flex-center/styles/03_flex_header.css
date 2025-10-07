@@ -1,0 +1,54 @@
+.body{
+  margin: 0;
+  background-color: #eee;
+  font-family: Besley, serif;
+}
+.container{
+  display: flex;
+  background-color: white;
+  justify-content: space-between;
+  align-items: center;
+  padding: 8px;
+  border-bottom: 1px solid #ddd;
+  box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.logo{
+  font-size: 36px;
+  font-weight: 700;
+  color: blueviolet;
+  padding-right: 8px;
+}
+
+a{
+  text-decoration: none;
+  font-size: 22px;
+  color: blueviolet;
+}
+
+ul{
+  list-style-type: none;
+  display: flex;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+  gap: 8px;
+}
+.notification{
+  background-color: blueviolet;
+  padding: 6px 10px;
+  border-radius: 8px;
+  margin: 7px;
+}
+.user{
+  background-color: blueviolet;
+  padding: 6px 10px;
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+}
+.leftside, .rightside {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+}
