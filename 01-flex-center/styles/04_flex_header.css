@@ -1,0 +1,31 @@
+.body{
+  background-color: white;
+  margin: 0;
+  padding: 0;
+}
+.info{
+  font-size: 40px;
+  font-weight: 900;
+  color: black;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 32px;
+}
+.content{
+  display: flex;
+  justify-content: center;
+  gap: 52px;  
+}
+.pic{
+  width: 100px;
+  height: 100px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p{
+  font-size: 12px;
+  margin: 0;
+  padding: 0;
+}
